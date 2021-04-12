@@ -2,8 +2,6 @@
 > Simplifiying your crosshair!
 
 
-[![Build Status][travis-image]][travis-url]
-
 florCrosshair is a simplistic ui menu that is designed to help you altewr the way your default GTAV crosshair appearance. This tool if very useful for not only alteration of your crosshair, but can be used for multiple other scenarios for attatching a image on your screen.
 
 ![](header.png)
