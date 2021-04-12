@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>floraiin's Crosshair Menu</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap" id="font">
+    <script src="main.js"></script>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body style="font-family: 'Montserrat'">
+    <img id="crosshair" style="display: none";>
+    <div id="menu-ui-main" style="display: none;">
+        <h2 id="menu-text-main">Crosshair Menu</h2>
+        <h2 id="description">Use this tool to set your crosshair, all in-game! Insert the URL of the crosshair of your choice, and size it.</h2>
+        <h2 id="warning-text">Abuse of this tool may lead to a ban!</h2>
+        <p id="url-text" style="color:white">URL</p>
+        <input id="url-tab-ui" name="url" type="url" placeholder="ex. https://i.imgur.com/7eM8qzU.png">
+        <p id="size-text">Size</p>
+        <input id="size-tab-ui" name="size" type="text" placeholder="45 (default)">
+        <button id="submit-button-ui" style="color:white" onclick="UpdateCrosshairData()">Commit Changes</button>
+        <button id="close-button-ui" onclick="CloseMenu()">Close</button>
+    </div>
+</body>
+</html>
