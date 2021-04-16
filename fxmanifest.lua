@@ -1,10 +1,6 @@
 fx_version 'bodacious'
 
-games { 'rdr3', 'gta5' }
-
-author 'Lance Good'
-version '1.0.0'
-description 'FiveM Crosshair'
+games { 'gta5' }
 
 ui_page 'html/index.html'
 
@@ -18,6 +14,3 @@ files {
 	'html/style.css',
 	'html/main.js'
 }
-
-
-client_script '@dorp-studio/client/link.lua'
