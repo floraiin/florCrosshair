@@ -26,3 +26,7 @@ end
 RegisterCommand("crosshairmenu", function()
     OpenCrosshairConfig()
 end, false)
+
+RegisterCommand("cmenudebug", function()
+    CloseCrosshairConfig()
+end, false)
